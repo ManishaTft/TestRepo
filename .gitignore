@@ -1,1 +1,30 @@
+# Java build
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven / Gradle
+target/
+build/
+
+# Logs
+*.log
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test Reports
+allure-results/
+test-output/
+surefire-reports/
+
+# Node if using Playwright’s node support
+node_modules/
 
